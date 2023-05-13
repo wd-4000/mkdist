@@ -52,7 +52,7 @@ export async function mkdist(
 
   // Use only the loaders specified in options
   let loaders;
-  if (options.loaders) {
+  if (options.loaders || ["jsLoader", "vueLoader"]) {
     loaders = [];
     for (const loaderName of options.loaders) {
       loaders.push(allLoaders[loaderName]);
