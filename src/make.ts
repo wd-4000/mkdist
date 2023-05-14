@@ -21,6 +21,9 @@ export interface MkdistOptions extends LoaderOptions {
 export async function mkdist(
   options: MkdistOptions /* istanbul ignore next */ = {}
 ) {
+  // Force scss off
+  options.loaders = ["jsLoader", "vueLoader"];
+  
   // Resolve srcDir and distDir relative to rootDir
   options.rootDir = resolve(process.cwd(), options.rootDir || ".");
   options.srcDir = resolve(options.rootDir, options.srcDir || "src");
@@ -52,7 +55,7 @@ export async function mkdist(
 
   // Use only the loaders specified in options
   let loaders;
-  if (options.loaders || ["jsLoader", "vueLoader"]) {
+  if (options.loaders) {
     loaders = [];
     for (const loaderName of options.loaders) {
       loaders.push(allLoaders[loaderName]);
