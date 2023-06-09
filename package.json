@@ -1,8 +1,8 @@
 {
-  "name": "mkdist",
+  "name": "@wd4000/mkdist-no-scss",
   "version": "3.5.1",
-  "description": "Lightweight file-to-file transformer",
-  "repository": "unjs/mkdist",
+  "description": "Lightweight file-to-file transformer (scss compilation bypass)",
+  "repository": "wd4000/mkdist",
   "license": "MIT",
   "main": "./dist/index.cjs",
   "exports": {
