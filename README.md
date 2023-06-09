@@ -1,3 +1,6 @@
+# mkdist (scss disabled)
+This is a version of mkdist with the scss loader disabled. Original description follows.
+
 # mkdist
 
 [![npm version][npm-version-src]][npm-version-href]
