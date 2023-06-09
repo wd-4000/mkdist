@@ -1,6 +1,6 @@
 {
   "name": "@wd4000/mkdist-no-scss",
-  "version": "3.5.1",
+  "version": "1.2.0",
   "description": "Lightweight file-to-file transformer (scss compilation bypass)",
   "repository": "wd4000/mkdist",
   "license": "MIT",
