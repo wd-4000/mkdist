@@ -1,3 +1,5 @@
+mkdist with scss compilation disabled. original description below!
+
 # mkdist
 
 [![npm version][npm-version-src]][npm-version-href]

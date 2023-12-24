@@ -27,6 +27,9 @@ export function resolveLoaders(
 ) {
   return loaders
     .map((loaderName) => {
+      if(loaderName == 'sass'){
+        return 
+      }
       const _loader = resolveLoader(loaderName);
       if (!_loader) {
         console.warn("Unknown loader:", loaderName);
