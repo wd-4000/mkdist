@@ -1,5 +1,5 @@
 {
-  "name": "mkdist-no-scss",
+  "name": "@wd4000/mkdist-no-scss",
   "version": "1.4.1",
   "description": "Lightweight file-to-file transformer",
   "repository": "wd-4000/mkdist",
